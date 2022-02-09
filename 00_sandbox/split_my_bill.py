@@ -1,11 +1,31 @@
 print("Welcome to Split My Pizza!")
 print("Each slice of pizza is $1!")
 
-number_of_slices = int(input("How many slices do you want?"))
+while True:
+    try:
+        number_of_slices = int(input("How many slices do you want?"))
+        if number_of_slices > 0:
+            break
+    except:
+        print("We cannot make that amount of pizza, please choose again")
 
-customers = int(input("How many people are sharing?"))
 
-tip_percentage = int(input("How much money would you like to leave as a tip?"))
+while True:
+    try:
+        customers = int(input("How many people are sharing?"))
+        if customers > 0:
+            break
+    except:
+        print("What's the point of ordering if you can't bring a suitable amount of people?")
+
+
+while True:
+    try:
+        tip_percentage = int(input("How much money would you like to leave as a tip?"))
+        if tip_percentage >= 0:
+            break
+    except:
+        print("We're not going to pay you for ordering our food!")
 
 slices_per_customer = number_of_slices//customers
 remaining_pizza = number_of_slices % customers

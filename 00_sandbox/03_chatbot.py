@@ -3,7 +3,7 @@ name = input("What is your name? ").lower()
 if name == "anakin":
     print("How do you do, anakin!")
 elif name == "leia":
-    print("May the force be with you")
+    print("May the 4th be with you")
 else:
     print("Nice name, {}".format(name))
 
@@ -15,7 +15,7 @@ elif weather == "HOT":
 else:
     print("I can't advise you on that type of weather")
 
-likes_blue = input("do you like the colour blue? ").upper()
+likes_blue = input("Do you like the colour blue? ").upper()
 if likes_blue == "YES":
     print("I like blue too!")
 else:

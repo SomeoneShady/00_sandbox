@@ -35,3 +35,4 @@ if extra_salad == "yes" and extra_sauce == "yes":
     total_cost = total_cost + 1.00
 
 print("Your total cost is: ${}".format(total_cost))
+print("Have a good day!")

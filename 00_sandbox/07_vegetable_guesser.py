@@ -2,7 +2,6 @@ print("Pick either Carrot, Peas, Broccoli, or Sweetcorn ")
 print("I will attempt to guess your chosen vegetable!")
 
 answer = input("Is your vegetable green? Input either Y or N").lower()
-
 if answer == "n":
     answer = input("Is your vegetable orange? Y/N").lower()
 

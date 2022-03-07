@@ -5,7 +5,7 @@ lives = 3
 tries_attempted = 1
 
 print("Hello, I have a challenge for you! Can you guess the number I am currently thinking of?")
-print(number)
+
 while True:
     try:
         user_input = input("Now, guess the number! (Hint: It's between 1-10)")

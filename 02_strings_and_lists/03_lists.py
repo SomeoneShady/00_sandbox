@@ -6,4 +6,3 @@ print("{} got {} points.".format(names[1], scores[1]))
 print("{} got {} points.".format(names[2], scores[2]))
 print("{} got {} points.".format(names[3], scores[3]))
 print("{} got {} points.".format(names[4], scores[4]))
-

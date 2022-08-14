@@ -15,3 +15,4 @@ def anti_blank(question):
 # Greet the user and ask for their name
 name = anti_blank("Greetings! What is your name?")
 print("{}? What a wonderful name!".format(name))
+print("Now, let's get started!")

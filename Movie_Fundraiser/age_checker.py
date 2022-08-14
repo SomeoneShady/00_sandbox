@@ -9,6 +9,6 @@ def age_checker(question):
             print("That's not a real age! Be honest!")
     return response
 
-        # Ask the user how old they are
+# Ask the user how old they are
 age = age_checker("Now, can you tell me how old you are?")
-if age <= 12:
+
